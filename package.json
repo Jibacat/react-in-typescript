@@ -1,0 +1,42 @@
+{
+  "name": "react-in-typescript",
+  "version": "1.0.0",
+  "description": "React project in typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --config webpack.dev.config.js --mode=development",
+    "eslint": "eslint src --ext .ts,.tsx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jibacat/react-in-typescript.git"
+  },
+  "author": "Jibacat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jibacat/react-in-typescript/issues"
+  },
+  "homepage": "https://github.com/Jibacat/react-in-typescript#readme",
+  "dependencies": {
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.3",
+    "@types/react-dom": "^16.8.2",
+    "eslint": "^5.14.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-typescript": "^0.14.0",
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3",
+    "typescript-eslint-parser": "^22.0.0",
+    "webpack": "^4.29.4",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
