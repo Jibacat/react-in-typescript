@@ -3,7 +3,7 @@ Bulid a React project with webpack, typescript and eslint from null.
 
 ### 1. Init npm in project
 
-Firstlt, We should install `node` in global environment. And then type `npm init` command to init the npm in an empty diretory. After finished that, a `package.json` file will be generated in the root path.
+Firstly, We should install `node` in global environment. And then type `npm init` command to init the npm in an empty diretory. After finished that, a `package.json` file will be generated in the root path.
 
 ### 2. Add React packages
 
